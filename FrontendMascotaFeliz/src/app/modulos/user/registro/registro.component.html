@@ -1,0 +1,96 @@
+
+  
+
+<div class=" container mt-3 col-lg-12 col-md-9">
+  
+    
+      <div class="card m-2 p-2">
+        <!-- Nested Row within Card Body -->
+        <div class="row">
+          <div class="col-lg-5 d-none d-lg-block bg-register-image">
+            
+          </div>
+          <div class="col-lg-6">
+            <div class="image1">
+              
+            </div>
+            <div class="p-5">
+              <div class="text-center">
+                <h1 class="h4 text-gray-900 mb-4">Crea tu cuenta!</h1>
+              </div>
+              <form class="user">
+                <div class="form-group row">
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                    <input
+                      type="text"
+                      class="form-control form-control-user"
+                      id="nombre"
+                      placeholder="Nombre"
+                      required
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-control form-control-user"
+                      id="apellido"
+                      placeholder="Apellido"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control form-control-user"
+                    id="correo"
+                    placeholder="Correo Electronico"
+                    required
+                  />
+                </div>
+                <div class="form-group row">
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                    <input
+                      type="text"
+                      class="form-control form-control-user"
+                      id="cedula"
+                      placeholder="Cedula"
+                      required
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-control form-control-user"
+                      id="telefono"
+                      placeholder="Telefono"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group row"></div>
+                
+                <a
+                  [routerLink]="['/user/dashboard-asesor']"
+                  class="btn btn-user btn-block teal lighten-2 text-white"
+
+                >
+                  Registrar cuenta
+                </a>
+                
+              </form>
+              <hr />
+              <div class="text-center">
+                <a class="small" [routerLink]="['/seguridad/olvidar-clave']">Olvidaste contraseña?</a>
+              </div>
+              <div class="text-center">
+                <a class="small" [routerLink]="['/seguridad/login']"
+                  >¿Tienes una cuenta? ¡Inicia sesión!</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  

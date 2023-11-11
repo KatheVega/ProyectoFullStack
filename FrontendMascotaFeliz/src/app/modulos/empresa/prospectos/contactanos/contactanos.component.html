@@ -1,0 +1,110 @@
+<div class="row justify-content-center">
+  <div class="col-xl-9 col-lg-9 col-md-9">
+    <div class="card o-hidden border-0 shadow-lg my-5">
+      <div class="card-body p-0">
+  
+  
+    <!-- Outer Row -->
+    
+            <!-- contact section -->
+            <div id="contact">
+              <div class="container center">
+                <div class="row">
+                  <div class="center teal lighten-2 text-white">
+                    <h2>Contáctanos</h2>
+                  </div>
+                  <form [formGroup]="fgValidador" (ngSubmit)="GuardarProspecto()">
+                    
+                    <div class="col-md-12 col-sm-12 center">
+                      <div class="col-md-12 col-sm-12 ">
+                        <input
+                          formControlName="nombre"
+                          type="text"
+                          placeholder="Nombres"
+                          class="form-control"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-12 col-sm-12 ">
+                        <input
+                          formControlName="apellido"
+                          type="text"
+                          placeholder="Apellidos"
+                          class="form-control"
+                          required
+                        />
+                      </div>
+                      
+                      <div class="col-md-12 col-sm-12">
+                        <input
+                          formControlName="correo"
+                          type="email"
+                          placeholder="Correo"
+                          class="form-control"
+                          required
+                        />
+                      </div>
+                      
+                      <div class="col-md-12 col-sm-12 ">
+                        <input
+                          formControlName="celular"
+                          type="text"
+                          placeholder="celular"
+                          class="form-control"
+                          required
+                        />
+                      </div>
+                      
+                      <!-- Text Area -->
+                      <div class="form-group shadow-textarea col-md-12 col-sm-12">
+                        <textarea
+                          formControlName="comentario"
+                          placeholder=" Escriba aca su mensaje"
+                          class=" form-control z-depth-1 "
+                          rows="5"
+                          maxlength="500"
+                          required
+                        ></textarea>
+                      </div>
+
+                      
+
+                      <div class="col-md-12 col-sm-12">
+                        <p>
+                          Tranquilo que uno de nuestros asesores se pondrá en contacto
+                          contigo, en el menor tiempo posible, sera un placer atenderte
+                        </p>
+                      </div>
+
+                        <!-- divider section -->
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-1 col-sm-1"></div>
+                            <div class="col-md-12 col-sm-12">
+                              <hr>
+                            </div>
+                            <div class="col-md-1 col-sm-1"></div>
+                          </div>
+                        </div>
+
+                      <!-- Botton enviar -->
+                      <div class="col-md-12 col-sm-12 center">
+                        <input
+                          [disabled]="!fgValidador.valid"
+                          type="submit"
+                          value="ENVIAR MENSAJE"
+                          class="btn teal lighten-2 text-white"
+                        />
+                      </div>
+
+                    </div>
+                    
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  

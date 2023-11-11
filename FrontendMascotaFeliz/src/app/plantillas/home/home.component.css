@@ -1,0 +1,161 @@
+#personas
+.persona {
+    display: flex;
+    flex-direction: column;
+}
+
+.personas {
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 0) {
+    .persona {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .persona {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 0) {
+    .personas {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .personas {
+        flex-direction: row;
+    }
+}
+
+
+
+.persona__funcion {
+    color: #595959;
+    font-size: 1.25rem;
+    text-transform: lowercase;
+}
+.persona__imagen {
+    background: red;
+    height: 300px;
+    width: 300px;
+}
+
+.persona__imagen--roberta {
+    background: url("https://www.travellens.co/content/images/2022/05/bogota.jpg");
+}
+
+.persona__imagen--marcela {
+    background: url("https://www.eltiempo.com/files/image_640_428/uploads/2022/01/08/61d93de8c972a.jpeg");
+}
+
+
+.persona__imagen--andrea {
+    background: url("https://www.barranquilla.gov.co/wp-content/uploads/2018/05/fb6a8430libro-e1527563753747-1920x821.jpg");
+}
+
+.persona__imagen {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+.persona__nombre {
+    color: rgb(32, 16, 9);
+    font-family: Pacifico;
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.quienes-somos__descripcion {
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.quienes-somos__titulo {
+    color: rgb(250, 132, 72);
+    font-family: Pacifico;
+    font-size: 3.1875rem;
+    margin-bottom: 1rem;
+}
+
+.quienes-somos {
+    text-align: center;
+    padding: 5rem;
+}
+.acordeoni{
+    margin: 2%;
+    font-size: 20px;
+    
+}
+.acordeoni-title{
+    font-family: Pacifico;
+    font-size: 30px;
+}
+.imagun{
+    background: url("https://www.travellens.co/content/images/2022/05/bogota.jpg");
+}
+
+
+.banner__imagen {
+    background: url("https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page276/petlover/img/carousel-1.jpg") no-repeat center / cover;
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagen {
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagen {
+        height: calc(100vh - 72px);
+    }
+}
+.banner__titulo {
+    color: rgb(224, 224, 224);
+    font-family: Pacifico, cursive;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.banner__titulo1 {
+    color: #fdfdfd;
+    
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 70%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+}
+.banner {
+    position: relative
+}
