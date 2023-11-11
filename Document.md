@@ -3,24 +3,9 @@
 ## Nombre Descriptivo del Sistema
 ### [MASCOTAFELIZ](http://www.mimascotafeliz.)
 
-## Equipo de Trabajo
-![](https://talentodigital.mintic.gov.co/734/channels-633_logo_talento_digital.svg)
-
-
-[JOEL STEVEN VALENCIA RUIZ](https://github.com/joestevenn)
+## Estudiante
 
 [GINA KATHERINE TORREZ VEGA](https://github.com/KatheVega)
-
-[SEBASTIAN ENGATIVA DUARTE](https://github.com/)
-
-[JESUS GABRIEL TOLOSA ZABALA](https://github.com/gabotolosa)
-
-[MILENA DUARTE GOMEZ](https://github.com/Miluu7920)
-
-![](https://img.shields.io/github/tag/pandao/editor.md.svg) 
-![](https://img.shields.io/github/release/pandao/editor.md.svg) 
-![](https://img.shields.io/github/issues/pandao/editor.md.svg) 
-![](https://img.shields.io/bower/v/editor.md.svg)
 
 “Mascota Feliz” ofrece una membresía preferencial para perros y gatos, la cual brinda para sus afiliados productos y servicios. Su propósito es poder tener cobertura en las principales ciudades del país. Se ha identificado, tras un estudio de mercado que los propietarios de mascotas quisieran poder consultar a través de internet, los productos y servicios que ofrece la empresa. 
  El gerente de Mascota Feliz ha contactado a la Universidad para desarrollar el sistema que permita realizar toda esta gestión. Por tal motivo, la Universidad mediante el apoyo de los estudiantes del módulo de Programación Web de Misión TIC 2022 busca satisfacer esta necesidad de Mascota Feliz. 

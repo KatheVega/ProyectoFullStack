@@ -1,27 +1,20 @@
-# FrontendMascotaFeliz
+<h1 align="center"> MascotaFeliz </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+Repositorio para el proyecto MASCOTAFELIZ Aplicación web para entrega 
 
-## Development server
+# MascotaFeliz
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+El proyecto MascotaFeliz fue creado con el ánimo de suplir la necesidad que existe en este momento en el área de veterinarios. Esto, debido a que actualmente, la información se recopila de forma manual, lo que permite que se cometan errores en cuanto al proceso de una visita.
 
-## Code scaffolding
+Instalación: Con el fin de que el proyecto corra sin inconvenientes al clonarlo, al abrir el proyecto, deben ejecutarse los siguientes comandos:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+npm init: para actualizar el package.json npm install: Para que se inicialicen todas las instancias necesarias. ng serve: Para que se ejecute el proyecto en el puerto 4200. ng serve -- port puerto: para ejecutar el proyecto en otro puerto.
 
-## Build
+Uso: Repository for the Project MascotaFeliz App Se crea el repositorio para el proyecto de la clase programacion de Mision Tic / UTP.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Descripcion del Proyecto 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`Puede visitar el link para leer detalladamente el problema ` :[ https://mascotafeliz.co/Documentacion/](https://github.com/KatheVega/ProyectoFullStack_Backend/blob/Kathevega/Document.md)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
